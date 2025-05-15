@@ -13,7 +13,7 @@ This repository serves as the **hands-on component** for the second hour of the 
 ## 📚 Lecture Materials & Demo Attacks
 
 * 📄 **Lecture Slides**
-  You can access the lecture slides here: \[🔗 *TODO*]
+  You can access the lecture slides [here](https://github.com/MichaelFu1998-create/cybersecurity_lecture/blob/main/lecture_slides_security_and_vulnerability.pdf).
 
 * 🧪 **Security Attack Demos**
   All demo code shown during the lecture is available in the `demo/` folder of this repository.
