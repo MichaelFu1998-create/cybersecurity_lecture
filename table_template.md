@@ -1,0 +1,6 @@
+| 🧨 **Risk / Threat**           | 🔁 **Trigger / Cause**                            | 🎲 **Likelihood** | 💥 **Impact**                            | 🛡️ **Contingency Plan**                            |
+|-------------------------------|--------------------------------------------------|------------------|------------------------------------------|----------------------------------------------------|
+| SQL injection                 | User input is passed directly to SQL query       | Medium           | High (data breach, DB corruption)        | Use input validation, prepared statements          |
+| Hardcoded API key             | Developer pushes code with secrets to GitHub     | Low              | High (unauthorized access)               | Use env variables, secret scanners                 |
+| No HTTPS                      | API endpoint uses HTTP                           | High             | Medium (data in transit exposed)         | Enforce HTTPS via server config                    |
+| Lack of authentication        | Public-facing admin route                        | Medium           | High (unauthorized access)               | Add auth middleware, access control                |
