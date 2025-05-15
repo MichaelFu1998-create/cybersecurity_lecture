@@ -40,6 +40,7 @@ As every team has different goals, apps, and tech stacks (e.g., web app, mobile 
 This framework will guide you to **identify**, **evaluate**, and **document** security risks specific to your project.
 
 ### 📋 Risk Evaluation Table Template (Example)
+#### You may copy and paste the table to your GitHub Wiki [here](https://github.com/MichaelFu1998-create/cybersecurity_lecture/blob/main/table_template.md?plain=1)
 
 | 🧨 **Risk / Threat**           | 🔁 **Trigger / Cause**                            | 🎲 **Likelihood** | 💥 **Impact**                            | 🛡️ **Contingency Plan**                            |
 |-------------------------------|--------------------------------------------------|------------------|------------------------------------------|----------------------------------------------------|
