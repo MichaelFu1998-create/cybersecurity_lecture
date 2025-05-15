@@ -1,0 +1,15 @@
+Case 1 (Unsafe) 
+
+1. run python xss_unsafe.py
+
+2. input whatever user name
+
+3. input <script>alert('XSS attack!');</script> to perform XSS in the comment
+
+Case 2 (Safe)
+
+1. run python xss_safe.py
+
+2. input whatever user name
+
+3. input <script>alert('XSS attack!');</script> to perform XSS in the comment

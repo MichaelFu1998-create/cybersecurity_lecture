@@ -1,0 +1,28 @@
+Case 1 (Unsafe)
+
+1. run python unsafe_app.py
+
+2. http://127.0.0.1:5000/profile?user_id=1   ← ✅ shows Alice's data (legitimate)
+   http://127.0.0.1:5000/profile?user_id=2   ← ❌ attacker sees Bob's data
+
+-----------------------
+
+Case 2 (Safe with authentication)
+
+1. run python safe_app.py
+
+2. Visit http://127.0.0.1:5000/secure_profile?user_id=2
+
+-----------------------
+
+Case 3 (Safe Session) (Best)
+
+1. run python safe_app_session.py
+
+2. Visit /login/1 to simulate login.
+
+3. Then visit /profile — no user_id in the URL.
+
+4. Server uses session['user_id'] to serve the correct profile.
+
+5. No risk of URL manipulation to access someone else’s data.

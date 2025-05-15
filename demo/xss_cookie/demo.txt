@@ -1,0 +1,33 @@
+Case 1 (Unsafe)
+
+1. run python xss_cookie_theft_unsafe.py
+
+2. visit http://localhost:5000/set_cookie
+
+3. visit http://localhost:5000/?name=<script>console.log(document.cookie)</script>
+
+4. go to DevTools console
+
+-------------------------------
+
+Case 2 (Safe - Sanitized)
+
+1. run python xss_cookie_theft_sanitized_safe.py
+
+2. visit http://localhost:5000/set_cookie
+
+3. visit http://localhost:5000/?name=<script>console.log(document.cookie)</script>
+
+4. go to DevTools console
+
+-------------------------------
+
+Case 3 (Safe - Sanitized)
+
+1. run python xss_cookie_theft_httponly_safe.py
+
+2. visit http://localhost:5000/set_cookie
+
+3. visit http://localhost:5000/?name=<script>console.log(document.cookie)</script>
+
+4. go to DevTools console
