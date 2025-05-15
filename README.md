@@ -10,6 +10,29 @@ This repository serves as the **hands-on component** for the second hour of the 
 
 ---
 
+## 📚 Lecture Materials & Demo Attacks
+
+* 📄 **Lecture Slides**
+  You can access the lecture slides here: \[🔗 *TODO*]
+
+* 🧪 **Security Attack Demos**
+  All demo code shown during the lecture is available in the `demo/` folder of this repository.
+  Each attack scenario is organized into its own subfolder.
+
+  ✅ Inside each attack folder, you'll find a `demo.txt` file explaining how to run and test it.
+
+* 🧪 **Static Analysis Demos**
+  Static analysis demo can be found in the `static_analysis/` folder. 
+  To test the static analyzer, use the command:
+  ```
+  python static_analyzer.py <filename>
+  ```
+
+> 💡 **Note:** These examples are intentionally simple to illustrate key concepts.
+> Real-world attacks are often more subtle and complex — these demos serve as an accessible starting point to build your security understanding and awareness.
+> 
+---
+
 ## 🛠️ Hands-on Activity: The Risk Evaluation Framework
 
 As every team has different goals, apps, and tech stacks (e.g., web app, mobile app, chatbot), your security concerns will vary.
