@@ -19,7 +19,7 @@ Case 3 (Safe Session) (Best)
 
 1. run python safe_app_session.py
 
-2. Visit /login/1 to simulate login.
+2. Visit http://127.0.0.1:5000/login/1 to simulate login.
 
 3. Then visit /profile — no user_id in the URL.
 

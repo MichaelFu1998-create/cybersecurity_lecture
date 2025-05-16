@@ -1,0 +1,11 @@
+Case 1 (Unsafe) 
+
+1. run python unsafe_login.py
+
+2. input ' OR 1=1 -- as username and whatever password
+
+Case 1 (Safe) 
+
+1. run python safe_login.py
+
+2. input ' OR 1=1 -- as username and whatever password
